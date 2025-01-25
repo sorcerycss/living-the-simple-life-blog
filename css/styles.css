@@ -64,6 +64,7 @@ strong {
   font-weight: 700;
   color: #1792d2;
   font-size: 0.75rem;
+  text-transform: uppercase;
   margin: 0;
 }
 
@@ -80,6 +81,8 @@ strong {
   color: #1792d2;
   text-decoration: none;
   font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .article-read-more:hover,
@@ -100,6 +103,7 @@ strong {
 .widget-title {
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
+  letter-spacing: 2px;
 }
 
 .widget-recent-post-title {
@@ -131,9 +135,9 @@ header {
 
 footer {
   background: #143774;
+  color: rgba(255, 255, 255, 0.75);
   text-align: center;
   padding: 1em 0;
-  color: white;
 }
 
 @media (min-width: 675px) {
@@ -167,6 +171,8 @@ nav li {
 
 nav a {
   text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   color: #707070;
   font-weight: 700;
   padding: 0.25em 0;
